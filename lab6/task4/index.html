@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="1234" id="1"> +
+	<input type="text" value="5677" id="2"> =
+	<span id = "res">?</span> <br> <br>
+	<button onclick="func()">Нажмите чтобы сложить</button>
+    <script>
+        function func(){
+			let n1 = Number(document.getElementById('1').value);
+			let n2 = Number(document.getElementById('2').value);
+			let res = document.getElementById('res');
+			res.innerHTML = n1 + n2;
+		}
+    </script>
+</body>
+</html>

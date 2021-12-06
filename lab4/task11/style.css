@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(40px, 60px));
+    grid-template-rows: repeat(3, minmax(40px, 60px));
+}
+.el {
+    border: 1px solid black;
+}
+@media (min-width: 320px) and (max-width: 1280px) {
+    
+}

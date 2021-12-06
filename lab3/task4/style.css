@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+header {
+    position: fixed;
+    background-color: #8d7de9;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font: 20px Arial, sans-serif;
+    color: white;
+}
+main {
+    position:absolute;
+    margin-top: 65px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding: 30px 15px;
+    border: 1px solid black;
+}

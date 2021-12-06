@@ -1,0 +1,38 @@
+div {
+    display: inline-block;
+    padding-left: 50px;
+}
+.none {
+    height: 300px;
+    width: 300px;
+}
+.grayscale {
+    filter: grayscale(100%);
+    height: 300px;
+    width: 300px;
+}
+.sepia {
+    filter: sepia(100%);
+    height: 300px;
+    width: 300px;
+}
+.saturate {
+    filter: saturate(50%);
+    height: 300px;
+    width: 300px;
+}
+.huerotate {
+    filter: hue-rotate(90deg);
+    height: 300px;
+    width: 300px;
+}
+.invert {
+    filter: invert(100%);
+    height: 300px;
+    width: 300px;
+}
+.contrast {
+    filter: contrast(40%);
+    height: 300px;
+    width: 300px;
+}

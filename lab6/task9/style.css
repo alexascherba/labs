@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top: 0px;
+    left: 0px;
+}
+
+.planet1 {
+    position: absolute;
+    top: 23px;
+    left: 180px;
+    z-index: 1;
+}
+
+.planet2 {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    z-index: 2;
+}
+
+.planet3 {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    z-index: 4;
+}
+
+div {
+    position: absolute;
+    top: 144px;
+    left: 50px;
+    z-index: 5;
+}
+
+input {
+	display: inline-block;
+    padding: 0.75em 1.5em; 
+    background-color: #ccc;
+    border-radius: 0.75em;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+    border: 0;
+    cursor: pointer;
+    z-index: 5;
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    text-decoration: none;
+	width: 200px;
+}
+
+#change, #test {
+	text-align: center;
+}
+
+#test {
+	font-size: 24px;
+}
+	

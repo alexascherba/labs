@@ -1,0 +1,28 @@
+div.pointer {
+    cursor: pointer;
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+div.progress {
+    cursor: progress;
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+div.wait {
+    cursor: wait;
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+div.my {
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    cursor: url(superman.png), auto;
+}

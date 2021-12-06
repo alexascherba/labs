@@ -1,0 +1,23 @@
+div.blue {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    margin-bottom: 15px;
+}
+div.orange {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: orange;
+    margin-bottom: 15px;
+}
+div.green {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: green;
+    margin-bottom: 15px;
+}
+div.red {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}

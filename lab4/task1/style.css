@@ -1,0 +1,12 @@
+textarea.both {
+    resize: both;
+}
+textarea.none {
+    resize: none;
+}
+textarea.horizontal {
+    resize: horizontal;
+}
+textarea.vertical {
+    resize: vertical;
+}

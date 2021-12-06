@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="" placeholder="Введите текст" id="test" onkeyup="func(this)">
+	<span id="text"></span>
+    <script>
+		function func(text1){
+			let text = document.getElementById('text');
+			text.innerHTML = text1.value;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	 <link a href="style.css" rel="stylesheet">
+</head>
+<body>
+	<script src="scrypt.js"></script>
+	<img class="background" src="bg.jpg" alt="background">
+	<img class="planet1" src="planet-1.png" alt="plan1">
+	<img class="planet2" src="planet-2.png" alt="plan2">
+	<img class="planet3" src="planet-3.png" alt="plan3"> 
+	<div id="change">
+		<img src="spaceship.png" id="img1">
+		<img src="asteroid.png" id="img2">
+		<img src="ufo.png" id="img3">
+		<p><input type="submit" value="Полетели" onclick="func()" id="start"></p>
+	</div>
+
+	<script>
+		function func(){
+			let timer = setInterval(change, 500);
+		} 
+		function change(){
+			let img1 = document.getElementById('img1');
+			let img2 = document.getElementById('img2');
+			let img3 = document.getElementById('img3');
+			let img = img1.src;
+			img1.src = img2.src;
+			img2.src = img3.src;
+			img3.src = img;
+		}
+	</script>
+</body>
+</html>

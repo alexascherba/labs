@@ -1,0 +1,25 @@
+div {
+    display: inline-block;
+}
+.gr1 {
+    background-image: repeating-linear-gradient(to bottom,
+    transparent 0 1px,
+    black 2px 3px);
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+}
+.gr2 {
+  background-image: repeating-linear-gradient(45deg,
+      transparent 0 1px,
+      red 2px 3px);
+  border: 1px solid black;
+  width: 250px;
+  height: 25px;
+}
+.gr3 {
+  background: repeating-radial-gradient(black 0 1px, white 2px 3px);
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+}

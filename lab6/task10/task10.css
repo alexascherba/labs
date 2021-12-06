@@ -1,0 +1,102 @@
+#container {
+	width: 1290px;
+	height: 550px;
+	background: linear-gradient(rgb(7, 200, 248), rgb(126, 102, 231));
+}
+body{
+	margin: 0;
+}
+#button {
+	background-color: rgb(117, 187, 245) ;
+	border-radius: 0.6em;
+	border: 0;
+	color: white;
+	font-family: arial;
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	left: 100px;
+	top: 200px;
+}
+
+#stick{
+	position: absolute;
+	background-color: rgb(117, 187, 245);
+	width: 15px;
+	height: 150px;
+	left: 220px;
+	top: 50px;
+	transform: rotate(0.25turn);
+	visibility: hidden;
+
+}
+#sail_1{ 
+	position: absolute;
+	top: 110px;
+	left: 115px;
+	border-bottom: 14.5px solid white; 
+	border-left: 100px solid transparent;
+	visibility: hidden;
+}
+#sail_2{
+	position: absolute;
+	top: 110px;
+	left: 240px;
+	border-bottom: 14.5px solid white;
+	border-right: 60px solid transparent;
+	visibility: hidden;
+
+}
+@keyframes ship_change{
+	100%{
+		border-bottom-right-radius: 60%;
+		border-bottom-left-radius: 60%;
+	}
+}
+@keyframes sail_1_change{
+	100%{
+		transform: scale(1, 10);
+	}
+}
+@keyframes sail_2_change{
+	100%{
+		transform: scale(1, 10);
+	}
+}
+ @keyframes stick_change{
+	100%{
+		transform: rotate(0deg);
+	}
+} 
+@keyframes ship_move{
+	0%{
+		left: 100px;
+	}
+	100%{
+		left: 1400px;
+	}
+}
+@keyframes stick_move{
+	0%{
+		left: 220px;
+	}
+	100%{
+		left: 1520px;
+	}
+}
+@keyframes sail_1_move{
+	0%{
+		left: 115px;
+	}
+	100%{
+		left: 1415px;
+	}
+}
+@keyframes sail_2_move{
+	0%{
+		left: 240px;
+	}
+	100%{
+		left: 1540px;
+	}
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h4><b>Прогресс-бар</b></h4>
+    <progress value="0" max="100" id="progress"></progress>
+    <label id="label">0%</label>
+    <p><button class="button" onclick="progress()">Увеличить значение</button></p>
+
+    <script>
+        let prog = document.getElementById('progress');
+        let numb = document.getElementById('label');
+        let progress = function() {
+            prog.value += 5;
+            prog.innerHTML = prog.value + '%';
+            prog.value < 100 ? numb.innerHTML = prog.value + '%': numb.innerHTML = '100%. Максимум';
+        }
+    </script>
+</body>
+</html>

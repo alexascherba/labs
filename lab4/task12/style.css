@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block {
+    background-color: blue;
+    color: white;
+    flex: 1 0 200px;
+    margin: 5px;
+    height: 400px;
+    padding: 5px;
+}
+@media (min-width: 320px) and (max-width: 1280px) {
+    
+}

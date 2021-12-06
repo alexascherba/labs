@@ -1,0 +1,34 @@
+div {
+    display: inline-block;
+}
+.gr1 {
+    background-image: linear-gradient(#ffdb0d, #FFF);
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+.gr2 {
+    background-image: linear-gradient(90deg, #ffdb0d, #FFF);
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+.gr3 {
+    background-image: linear-gradient( 270deg, #ffdb0d, #FFF);
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+.gr4 {
+    background-image: linear-gradient(red 33%, white 33% 66%, red 66% );
+    border: 1px solid black;
+    width: 375px;
+    height: 250px;
+}
+.gr5 {
+    background-image: linear-gradient(90deg, red 3%, blue 50% 55%, white 80% 85%, red 98%);
+    border: 1px solid black;
+    width: 375px;
+    height: 250px;
+}
+

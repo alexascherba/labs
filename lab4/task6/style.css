@@ -1,0 +1,27 @@
+.ten1 {
+    text-shadow: 5px 10px grey;
+    padding: 10px;
+}
+.ten2 {
+    text-shadow: 5px 10px 1px grey;
+    padding: 10px;
+}
+.ten3 {
+    text-shadow: 2px 3px 2px red, -1px -3px 2px blue;
+    padding: 10px;
+}
+.ten4 {
+    color: burlywood;
+    text-shadow: 0.2px 0.2px 1px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+.ten5 {
+    color: burlywood;
+    text-shadow: -0.2px -0.2px 1px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+.ten6 {
+    color: burlywood;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}

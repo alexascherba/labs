@@ -1,0 +1,12 @@
+p.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 7px;
+    border: 1px solid black;
+}
+p.ellipsis:hover {
+    cursor: pointer;
+    overflow: visible;
+    white-space: normal;
+}

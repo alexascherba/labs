@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    background: #444;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    background: #444;
+    float: left;
+    padding: 20px;
+    position: relative;
+  }
+  
+  li a, li span{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  li:hover {
+    background: #333;
+    cursor: pointer;
+  }
+  
+  li:hover>.list{
+    visibility: visible;
+  }
+  
+  .list{
+    background: #444;
+    visibility: hidden;
+    position: absolute;
+    display: block;
+    margin-top: 1em;
+    left: 0;
+  }
+  
+  .list li{
+    width: 80%;
+    padding: 20px;
+  } 

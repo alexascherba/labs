@@ -1,0 +1,43 @@
+*{margin:0px;}
+section#grid{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 240px;    
+}
+#item1{
+    font-size: larger;
+    color:#828A95;
+    text-align: center;
+    padding:20px;
+    font-family: Snell Roundhand, cursive;
+}
+#item2{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+h2{
+    color:#828A95;
+    font-family: Snell Roundhand, cursive;
+}
+.card1, .card2, .card3{
+    flex-basis:400px; height:auto;
+    padding:10px;
+    margin:5px;
+    background-color: rgb(255, 213, 220);
+    text-align: center;
+    font-size: smaller;
+}
+.color1{   
+    background-color: #f8b8e8;
+    height:50px;
+}
+.color2{
+    background-color: #a9e3f7;
+    height:50px;
+}
+.color3{
+    background-color: #BDEB5C;
+    height:50px;
+}

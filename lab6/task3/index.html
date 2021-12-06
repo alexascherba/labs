@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p class="pr">Текст до изменения</p>
+    <input type="submit" value="Нажмите на меня!" onclick="func()">
+
+    <script>
+        function func() {
+	        let elements = document.querySelector(".pr");
+		    elements.innerHTML = "Текст <b>после</b>";
+        }
+    </script>
+</body>
+</html>
